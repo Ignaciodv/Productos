@@ -73,6 +73,9 @@ div{
     margin-top: 10px;
 }
 
+li{
+    color: #ffffff;
+}
 /* Consulta de medios para dispositivos móviles */
 /* @media screen and (max-width: 600px) {
     .botonAgregar {
@@ -80,3 +83,4 @@ div{
       margin-bottom: 10px; Añade espacio entre el input y el botón
     }
   } */
+
