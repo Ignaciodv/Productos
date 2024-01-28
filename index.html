@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de compras</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <h1>Lista de Compras Interactiva</h1>
+
+    <input type="text" id="nuevoItem" placeholder="Agregar producto">
+    <div>
+
+        <button class="botonAgregar botonAgregarDefauld" onclick="agregarItem()">Agregar</button>
+        <button class="botonLimpiar botonLimpiarDefauld" onclick="limpiarComprados()">Limpiar Comprados</button>
+
+    </div>
+    
+
+    <ul id="listaCompras">
+        <!-- Acá se agregan los productos comprados -->
+    </ul>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
